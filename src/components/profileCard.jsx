@@ -2,7 +2,7 @@ export default function ProfileCard() {
   return (
     <section
       id="profile"
-      className=" flex justify-center items-center w-[90%] sm:w-[70%] h-fit gap-4 p-3 flex-col"
+      className=" flex justify-center items-center w-[90%] sm:w-[70%] h-fit gap-4 p-3 flex-col "
     >
       <article className=" flex flex-col md:flex-row mt-2 justify-center gap-3 p-5 md:p-12 items-center w-[90vw] md:max-w-[70vw] ">
         <img

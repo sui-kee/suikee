@@ -1,9 +1,9 @@
-import yokeplay from "../../public/yokeplay.png";
-import yokeplaysm from "../../public/yokeplaysm.jpg";
-import gSong from "../../public/g-song.png";
-import gSongsm from "../../public/g-songsm.jpg";
-import jaja from "../../public/jajaliken.png";
-import jajasm from "../../public/jajalikensm.jpg";
+import yokeplay from "/yokeplay.png";
+import yokeplaysm from "/yokeplaysm.jpg";
+import gSong from "/g-song.png";
+import gSongsm from "/g-songsm.jpg";
+import jaja from "/jajaliken.png";
+import jajasm from "/jajalikensm.jpg";
 
 export default function ProjectHolder({ project, index }) {
   // project lis is for image optimization like placeholder="blur"
