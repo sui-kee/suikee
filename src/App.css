@@ -18,3 +18,32 @@
 .custom-shape-divider-bottom-1711548087 .shape-fill {
   fill: #ffffff;
 }
+
+.curve {
+  position: absolute;
+  height: 225px;
+  bottom: 0;
+  width: 100%;
+}
+
+.curve::before {
+  content: "";
+  position: absolute;
+  width: 55%;
+  height: 100%;
+  border-radius: 100% 50%;
+  display: block;
+  transform: translate(85%, 60%);
+  background-color: white;
+}
+
+.curve::after {
+  content: "";
+  position: absolute;
+  width: 55%;
+  height: 100%;
+  border-radius: 100% 50%;
+  display: block;
+  transform: translate(-4%, 40%);
+  background-color: #4d069c;
+}

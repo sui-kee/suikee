@@ -19,7 +19,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className=" flex flex-col justify-center items-center p-3 bg-white"
+      className=" pt-[140px] flex flex-col justify-center items-center p-3 bg-white"
     >
       <h2 className="text-4xl text-black font-extrabold">MY SKILLS</h2>
       <ul className="  flex justify-center items-center  p-2 flex-row gap-5 flex-wrap">

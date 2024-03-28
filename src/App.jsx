@@ -11,8 +11,8 @@ import Divider from "./components/divider";
 function App() {
   return (
     <>
-      <main className=" bg-[#4d069c] flex justify-center flex-col items-center">
-        <Divider />
+      <main className=" bg-[#4d069c] overflow-x-hidden  flex justify-center flex-col items-center">
+        {/* <Divider /> */}
         <Navigations />
         <ProfileCard />
         <Skills />
