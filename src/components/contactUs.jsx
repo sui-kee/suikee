@@ -35,7 +35,7 @@ export default function ContactUs() {
           Send
         </button>
       </section>
-      <section className=" bg-black rounded-l-md min-h-[25vh] w-[70vw] sm:w-[30vw] z-[20] flex justify-start items-center flex-col gap-1 ">
+      <section className=" bg-black rounded-l-md min-h-[25vh] w-[70vw] sm:w-[60vw] lg:w-[30vw] z-[20] flex justify-start items-center flex-col gap-1 ">
         <h3 className=" text-2xl text-white font-bold w-full text-start ml-5 p-4">
           Info
         </h3>
