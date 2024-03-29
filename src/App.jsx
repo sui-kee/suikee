@@ -7,18 +7,20 @@ import Projects from "./components/projects";
 import Navigations from "./components/navigations";
 import FooterContact from "./components/footerContact";
 import Divider from "./components/divider";
+import ContactUs from "./components/contactUs";
 
 function App() {
   return (
     <>
-      <main className=" bg-[#4d069c] overflow-x-hidden  flex justify-center flex-col items-center">
+      <main className=" bg-[#4d069c] z-[10000] overflow-x-hidden  flex justify-center flex-col items-center">
         {/* <Divider /> */}
         <Navigations />
         <ProfileCard />
         <Skills />
         <MyProvides />
         <Projects />
-        <FooterContact />
+        {/* <FooterContact /> */}
+        <ContactUs />
       </main>
     </>
   );
