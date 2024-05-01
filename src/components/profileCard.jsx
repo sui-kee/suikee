@@ -29,7 +29,7 @@ export default function ProfileCard() {
           width={400}
           height={400}
           alt="profile"
-          src={"profile.jpg"}
+          src={"suikeeprofile.jpg"}
           className=" w-[190px] h-[190px] sm:w-[280px] sm:h-[280px] lg:w-[330px] lg:h-[330px] rounded-md p-2 lg:p-4 "
         />
         <footer className=" flex justify-start flex-col">
