@@ -53,12 +53,13 @@ export default function ProfileCard() {
             ))}
           </p>
           <div className=" flex justify-start pt-3">
-            <button
-              href={"me"}
+            <a
+              href={"https://www.linkedin.com/in/sui-kee-675bb326a/"}
+              target="blank"
               className=" px-7 py-2 w-fit rounded-lg text-white bg-[#732020] hover:bg-pink-700"
             >
               Hire me
-            </button>
+            </a>
           </div>
         </footer>
       </article>
