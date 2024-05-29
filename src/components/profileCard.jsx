@@ -25,13 +25,15 @@ export default function ProfileCard() {
       className=" flex relative justify-center items-center w-[100vw] h-fit gap-4  flex-col pb-[140px] "
     >
       <article className=" flex flex-col md:flex-row mt-2 justify-center gap-3 p-5 md:p-12 items-center w-[90vw] sm:max-w-[94vw] lg:max-w-[80vw]">
-        <img
-          width={400}
-          height={400}
-          alt="profile"
-          src={"suikeeprofile.jpg"}
-          className=" w-[190px] h-[190px] sm:w-[280px] sm:h-[280px] lg:w-[330px] lg:h-[330px] rounded-md p-2 lg:p-4 "
-        />
+        <div className=" overflow-hidden rounded-md ">
+          <img
+            width={400}
+            height={400}
+            alt="profile"
+            src={"suikeeprofile.jpg"}
+            className=" w-[190px] h-[190px] sm:w-[280px] sm:h-[280px] lg:w-[330px] lg:h-[330px] object-cover rounded-md "
+          />
+        </div>
         <footer className=" flex justify-start flex-col">
           <h2
             ref={textRef}
@@ -63,7 +65,7 @@ export default function ProfileCard() {
           </div>
         </footer>
       </article>
-      <Curves />
+      {/* <Curves /> */}
     </section>
   );
 }

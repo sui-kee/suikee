@@ -12,7 +12,7 @@ import ContactUs from "./components/contactUs";
 function App() {
   return (
     <>
-      <main className=" bg-[#4d069c] z-[10000] overflow-x-hidden  flex justify-center flex-col items-center">
+      <main className=" bg-black z-[10000] overflow-x-hidden  flex justify-center flex-col items-center">
         {/* <Divider /> */}
         <Navigations />
         <ProfileCard />

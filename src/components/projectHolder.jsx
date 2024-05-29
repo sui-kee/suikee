@@ -22,7 +22,7 @@ export default function ProjectHolder({ project, index }) {
     },
   ];
   return (
-    <section className=" flex flex-col justify-start bg-none items-center w-full gap-3 rounded-md shadow-lg">
+    <section className=" flex flex-col bg-black border justify-start bg-none items-center w-full gap-3 rounded-md shadow-lg">
       <article className=" relative w-full min-h-fit p-2 flex flex-col gap-2 justify-end items-center rounded-md ">
         <img
           src={project_list[index].lg}
@@ -53,7 +53,7 @@ export default function ProjectHolder({ project, index }) {
         </ul>
       </article>
       <article
-        className={` flex flex-col h-full justify-start items-start rounded-md p-3 gap-3 text-[#A66D03]`}
+        className={` flex flex-col h-full w-full justify-start items-start rounded-md p-3 gap-3 text-[#A66D03]`}
       >
         <header
           className={`  flex justify-start items-center gap-2 text-lg lg:text-4xl uppercase text-slate-100 font-bold`}
@@ -95,9 +95,9 @@ export default function ProjectHolder({ project, index }) {
           />
           <h2>app link</h2>
         </a>
-        <p className={`  text-lg md:text-xl font-extrabold`}>
+        {/* <p className={`  text-lg md:text-xl font-extrabold`}>
           {project.description}
-        </p>
+        </p> */}
       </article>
     </section>
   );

@@ -46,7 +46,7 @@ export default function ContactUs() {
               alt="info"
               className=" w-[35px] h-[35px]"
             />
-            <span>githuh/sui-kee</span>
+            <span>github/sui-kee</span>
           </li>
           <li className=" flex p-2 gap-8 justify-start items-center">
             <img

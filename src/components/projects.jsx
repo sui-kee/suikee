@@ -4,7 +4,7 @@ import ProjectHolder from "./projectHolder";
 import { motion, useAnimation, useInView } from "framer-motion";
 export default function Projects() {
   return (
-    <main className="bg-black relative">
+    <main className=" relative bg-white">
       <h3 className=" w-full p-4 text-start  text-7xl text-white space-x-5 uppercase">
         My top projects
       </h3>
