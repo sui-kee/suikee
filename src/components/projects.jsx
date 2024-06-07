@@ -5,7 +5,7 @@ import { motion, useAnimation, useInView } from "framer-motion";
 export default function Projects() {
   return (
     <main className=" relative bg-white">
-      <h3 className=" w-full p-4 text-start  text-7xl text-white space-x-5 uppercase">
+      <h3 className=" w-full p-4 text-start  text-7xl text-black space-x-5 uppercase">
         My top projects
       </h3>
       <section

@@ -39,8 +39,8 @@ export default function ContactUs() {
         <h3 className=" text-2xl text-white font-bold w-full text-start ml-5 p-4">
           Info
         </h3>
-        <ul className=" w-full flex flex-col justify-start gap-4 p-6 text-gray-400">
-          <li className=" flex p-2 gap-8 justify-start items-center">
+        <ul className=" w-full flex flex-col justify-start gap-2 sm:gap-4 p-4 sm:p-6 text-gray-400">
+          <li className=" flex p-2 gap-5 sm:gap-8 justify-start items-center">
             <img
               src="/gray/gitgray.svg"
               alt="info"
@@ -48,7 +48,7 @@ export default function ContactUs() {
             />
             <span>github/sui-kee</span>
           </li>
-          <li className=" flex p-2 gap-8 justify-start items-center">
+          <li className=" flex p-2 gap-5 sm:gap-8 justify-start items-center">
             <img
               src="/gray/emailgray.svg"
               alt="info"
@@ -56,7 +56,7 @@ export default function ContactUs() {
             />
             <span>mesutkee@gmail.com</span>
           </li>
-          <li className=" flex p-2 gap-8 justify-start items-center">
+          <li className=" flex p-2 gap-5 sm:gap-8 justify-start items-center">
             <img
               src="/gray/phonegray.svg"
               alt="info"
@@ -64,7 +64,7 @@ export default function ContactUs() {
             />
             <span>+060102784985</span>
           </li>
-          <li className=" flex p-2 gap-8 justify-start items-center">
+          <li className=" flex p-2 gap-5 sm:gap-8 justify-start items-center">
             <img
               src="/gray/locationgray.svg"
               alt="info"
