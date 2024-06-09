@@ -17,7 +17,7 @@ export default function MyProvides() {
   return (
     <section
       id="provides"
-      className=" flex justify-center bg-red-500 items-center w-full gap-4 h-fit p-3 flex-col sm:flex-row flex-wrap"
+      className=" flex justify-center  items-center w-full gap-4 h-fit p-3 flex-col sm:flex-row flex-wrap"
     >
       <motion.div
         ref={textRef}

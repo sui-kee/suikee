@@ -22,7 +22,7 @@ export default function ProfileCard() {
   return (
     <section
       id="profile"
-      className=" flex relative justify-center items-center w-[100vw] h-fit gap-4  flex-col pb-[140px] "
+      className=" flex relative justify-center items-center w-[100vw] h-fit gap-4  flex-col pb-[70px] "
     >
       <article className=" flex flex-col md:flex-row mt-2 justify-center gap-3 p-5 md:p-12 items-center w-[90vw] sm:max-w-[94vw] lg:max-w-[80vw]">
         <div className=" overflow-hidden w-full h-full rounded-md ">
@@ -37,7 +37,7 @@ export default function ProfileCard() {
         <footer className=" flex justify-start flex-col">
           <h2
             ref={textRef}
-            className={`  text-lg sm:text-xl lg:text-4xl uppercase text-[#BFAEA8] font-bold max-w-[70vw]`}
+            className={`  text-lg sm:text-xl lg:text-4xl uppercase text-gray-400 font-bold max-w-[70vw]`}
           >
             Hello, I'm Ling Kee
           </h2>
